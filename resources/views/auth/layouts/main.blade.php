@@ -11,13 +11,10 @@
 </head>
 <body>
 <div id="auth" class="auth content-container">
-  @include('client.layouts.parts.header')
-
   <main class="main">
     @yield('content')
   </main>
-
-  @include('client.layouts.parts.footer')
+</div>
 <script src="{{ asset('assets/front/js/app.js') }}"></script>
 </body>
 </html>

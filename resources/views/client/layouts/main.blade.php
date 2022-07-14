@@ -18,6 +18,7 @@
   </main>
 
   @include('client.layouts.parts.footer')
+</div>
 <script src="{{ asset('assets/front/js/app.js') }}"></script>
 </body>
 </html>

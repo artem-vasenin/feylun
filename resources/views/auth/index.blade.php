@@ -1,10 +1,10 @@
-@extends('client.layouts.main')
+@extends('auth.layouts.main')
 
 @section('content')
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1>Auth</h1>
+        <h1>Login</h1>
       </div>
     </div>
   </div>

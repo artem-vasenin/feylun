@@ -11,13 +11,14 @@
 </head>
 <body>
 <div id="admin" class="admin content-container">
-  @include('client.layouts.parts.header')
+  @include('admin.layouts.parts.header')
 
   <main class="main">
     @yield('content')
   </main>
 
-  @include('client.layouts.parts.footer')
+  @include('admin.layouts.parts.footer')
+</div>
 <script src="{{ asset('assets/front/js/app.js') }}"></script>
 </body>
 </html>
