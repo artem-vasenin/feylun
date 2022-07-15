@@ -5,7 +5,7 @@ use App\Http\Controllers\Auth\AuthMainController;
 use App\Http\Controllers\Client\ClientMainController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [ClientMainController::class, 'index']);
+Route::get('/', [ClientMainController::class, 'index'])->name('home');
 Route::get('/logout', [AuthMainController::class, 'logout'])->name('logout');
 
 Route::group(['prefix' => 'admin'], function() {

@@ -12,6 +12,8 @@
 <body>
 <div id="auth" class="auth content-container">
   <main class="main">
+    @include('shared.alerts.alerts')
+
     @yield('content')
   </main>
 </div>
