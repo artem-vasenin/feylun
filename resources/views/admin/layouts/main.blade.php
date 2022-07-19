@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ asset('shared/css/fa5.css') }}">
   <link rel="stylesheet" href="{{ asset('shared/css/styles.css') }}">
   <link rel="stylesheet" href="{{ asset('manager/css/styles.css') }}">
-  <title>Document</title>
+  <title>@section('title')Админ панель@endsection</title>
 </head>
 <body>
 <div id="admin" class="admin content-container">

@@ -1,3 +1,10 @@
+.nav-item__parent {
+  margin-right: 20px;
+}
+.nav-item__parent:last-child {
+  margin-right: 0;
+}
+
 .footer {
   background-color: #dedede;
 }
